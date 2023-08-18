@@ -45,7 +45,7 @@
         name: 'Bottom',
         components: {
             Button
-        }
+        },
     });
 </script>
 

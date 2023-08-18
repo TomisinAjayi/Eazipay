@@ -29,7 +29,7 @@
             <div class="card card-3 herocard">
                 <h3 class="">Payroll in Seconds</h3>
                 <p class="">
-                    Never again wil you spend more than 2 minutes on payroll.
+                    Never again will you spend more than 2 minutes on payroll.
                 </p>
                 <p class="">
                     Just click on your staff and bulk-pay them at once.                          
@@ -40,7 +40,7 @@
             </div>
             
         </div>
-        <p class="text-center" style="color: #515251; margin: 64px auto 0; width: 621.74px;">We are happy to answer your queries. Please, reach us at <a class="email-link">hello@myeazipay.com</a> and expect our response shortly after.</p>
+        <p class="text-center" style="color: #515251; margin: 64px auto 0; width: 621.74px;">We are happy to answer your queries. Please, reach us at <a class="email-link" href="mailto:hello@myeazipay.com">hello@myeazipay.com</a> and expect our response shortly after.</p>
     </div>
 </template>
 

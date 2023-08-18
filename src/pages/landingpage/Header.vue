@@ -156,6 +156,7 @@
         gap: 12px;
         border-radius: 8px;
         background: #FFF;
+        cursor: pointer;
         box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
     }
     .icon {
