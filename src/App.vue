@@ -4,10 +4,10 @@
       <p>No Mobile View. Open this page on a larger screen.</p>
     </div>
     <div v-else>
-      <Navbar />
-      <Landingpage />
-      <!-- <Dashboard /> -->
-      <Footer />
+      <!-- <Navbar />
+      <Landingpage /> -->
+      <Dashboard />
+      <!-- <Footer /> -->
     </div>
 
   </div>
@@ -15,19 +15,19 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Navbar from './components/Navbar.vue';
-import Landingpage from './pages/landingpage/index.vue';
-// import Dashboard from './pages/dashboard/index.vue';
-import Footer from './components/Footer.vue';
-import "./assets/fonts/Aeonik-/Aeonik-Medium.otf";
+// import Navbar from './components/Navbar.vue';
+// import Landingpage from './pages/landingpage/index.vue';
+import Dashboard from './pages/dashboard/index.vue';
+// import Footer from './components/Footer.vue';
+// import "./assets/fonts/Aeonik-/Aeonik-Medium.otf";
 
 export default defineComponent({
   name: 'App',
   components: {
-    Navbar,
-    Landingpage,
-    // Dashboard,
-    Footer
+    // Navbar,
+    // Landingpage,
+    Dashboard,
+    // Footer
   },
   data() {
     return {
