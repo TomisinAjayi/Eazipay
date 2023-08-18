@@ -130,6 +130,7 @@
     .payment-right {
         margin-top: 140.7px;
         width: 480px;
+        height: 433px;
         background-image: url(/payment.png);
         background-repeat: no-repeat;
         background-size: cover;
