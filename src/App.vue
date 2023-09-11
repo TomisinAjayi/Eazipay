@@ -43,8 +43,13 @@ export default defineComponent({
 
 
 <style>
+  @font-face {
+    font-family: mellow;
+    src: url('@/assets/fonts/MADEMellowPERSONALUSE-Regular.otf');
+    font-weight: normal;
+  }
   #app {
-    font-family: Aeonik;
+    font-family: mellow;
     background-image: url(/gradient.png);
     background-repeat: no-repeat;
   }
