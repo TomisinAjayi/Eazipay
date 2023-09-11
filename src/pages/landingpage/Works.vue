@@ -9,7 +9,7 @@
             <div class="circle big-circle">
                 <div class="circle medium-circle">
                     <div class="circle smaller-circle">
-                        <img src="https://s3-alpha-sig.figma.com/img/afa0/c1e6/561787658c7d935e98021ba603c76f08?Expires=1693180800&Signature=KuxMDqeeLDUOBKCjxVju~iSpBNxcLtv2VxGKe85K-opRDi5jkKodNQTThEPO5mQvlnhppqiDeFAYXXvPiIkHbavc8n84YSh~7gXr488fj-73RoIJj3hD4p0~njHbT7BiuFMC-jbMiq5rRQ8kVYQbagWh8rDnMXBKhu0m-0QJMOG8Ul29W0Q1sc0NWV4tE3OI87ay~Lno11jIYOd4bwWgjzjkfNUZmBtwqo1Hn6FX2K~ahgh96gmzhcLzvicFwgpuNtRwrQFqEDgvp8OckKw-mKSyganILaBFGhUcmW0cbaUP1nJsVcU87jSd93~O2gyY7fcYmqbnri0CXPqe6G-zfg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Logo" class="onboarding-phone" />
+                        <img src="https://www.myeazipay.com/img/onbrdng.85ab462c.gif" alt="Logo" class="onboarding-phone" />
                     </div>
                 </div>
             </div>

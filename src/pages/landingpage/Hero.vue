@@ -3,9 +3,9 @@
         <h1 class="text-center">For Individuals and Businesses</h1>
         <p style="color: #292A29" class="text-center">Join 200+ businesses using Eazipay's easy solution.</p>
 
-        <div class="flex cards gap-6" style="padding-left: 192px;">
+        <div class="flex cards gap-6 relative" style="padding-left: 192px;">
            
-            <div class="card card-1 herocard">
+            <div class="card card-1 herocard start lg:relative lg:left-0">
                 <h3 class="">Tamper-proof Payroll for Life</h3>
                 <p class="">
                     Your staff payroll history is kept in one place forever.
@@ -17,7 +17,7 @@
                     Download your payroll history anytime you need it.                            
                 </p>
             </div>
-            <div class="card card-2 herocard">
+            <div class="card card-2 herocard lg:absolute lg:left-[30%] py-5 lg:py-0 mid">
                 <h3 class="">All Payroll, Anytime Anywhere</h3>
                 <p class="">
                     Wherever you are Eazipay has got you covered on ALL your Payroll tasks.                            
@@ -26,7 +26,7 @@
                     Whether it is Taxes, Pension insurances HMOs, trustfunds, Eazipay handle all your compliamces in one place and easily, in seconds!                            
                 </p>
             </div>
-            <div class="card card-3 herocard">
+            <div class="card card-3 herocard relative right-0 cards third">
                 <h3 class="">Payroll in Seconds</h3>
                 <p class="">
                     Never again will you spend more than 2 minutes on payroll.
@@ -80,14 +80,6 @@
         letter-spacing: 0.2px;
         margin-bottom: 64px;
     }
-    .card-2 {
-        position: absolute;
-        left: 32%;
-    }
-    .card-3 {
-        position: absolute;
-        left: 50%;
-    }
     .herocard {
         color: #FFF;
         display: flex;
@@ -101,6 +93,7 @@
         flex-shrink: 0;
         padding: 64px;
         border-radius: 16px;
+        transition: 4s, 2s ease-in-out;
         background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%), #11453B;
         box-shadow: -11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20);
     }
@@ -120,5 +113,17 @@
     .email-link {
        color: #EA4E4B;
     }
+    .start {
+        padding-right: 20px;
+      }
+      .start:hover~.mid {
+        left: 46%
+      }
+      .mid:hover {
+        left: 18%
+      }
+      .third:hover {
+        left: -2%
+      }
 </style>
   
